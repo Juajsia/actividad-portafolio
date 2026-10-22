@@ -1,64 +1,98 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portafolio | Juan José Estrada Vélez</title>
     <link rel="stylesheet" href="css/styles.css">
 </head>
+
 <body>
     <header>
-        <h1>Juan José Estrada Vélez</h1>
-        <p>Desarollador de Software Fullstack</h2>
-        <ul>
-            <li><a href="#about-me">Acerca de mí</a></li>
-            <li><a href="#experience">Mi experiencia</a></li>
-            <li><a href="#projects">Proyectos</a></li>
-        </ul>
+        <nav class="navbar">
+            <div class="title">
+                <h1>Juan José Estrada Vélez</h1>
+                <p>Desarollador de Software Fullstack</h2>
+            </div>
+            <ul>
+                <li><a href="#about-me">Acerca de mí</a></li>
+                <li><a href="#experience">Mi experiencia</a></li>
+                <li><a href="#projects">Proyectos</a></li>
+            </ul>
+        </nav>
     </header>
 
     <main>
         <section id="about-me">
-            <h2>Acerca de mí</h2>
-            <p>Soy desarrollador fullstack con interés en crear aplicaciones útiles, accesibles y fáciles de mantener. Tengo conocimientos de JavaScript, TypeScript, React, Node.js y bases de datos como PostgreSQL y MongoDB. Me considero una persona curiosa, organizada y comprometida con el aprendizaje continuo y el trabajo en equipo.</p>
-        </section>
 
-        <secttion id="experience">
-            <h2>Experiencia profesional</h2>
-            <p>Experiencia simulada para una actividad académica</p>
+            <h2>Acerca de mí</h2>
             <ul>
                 <li>
-                    Desarrollador Fullstack Jr. — Riwi | Enero 2025 - Diciembre 2025
-                    <p>Colaboré en el desarrollo de una plataforma web para gestionar clientes y tareas. Implementé componentes de interfaz con React, desarrollé endpoints con Node.js y Express, y trabajé con una base de datos PostgreSQL. También participé en revisiones de código, pruebas y corrección de errores.</p>
+                    Soy desarrollador fullstack con interés en crear aplicaciones útiles, accesibles y fáciles de
+                    mantener.
+                    Tengo conocimientos de JavaScript, TypeScript, React, Node.js y bases de datos como PostgreSQL y
+                    MongoDB. Me considero una persona curiosa, organizada y comprometida con el aprendizaje continuo y
+                    el
+                    trabajo en equipo.
                 </li>
             </ul>
-        </secttion>
+        </section>
+
+        <section id="experience">
+
+            <h2>Experiencia profesional</h2>
+            <ul>
+                <li>
+                    <strong>Desarrollador Fullstack Jr. — Riwi </strong> | <span>Enero 2025 - Diciembre 2025</span>
+                    <p>Colaboré en el desarrollo de una plataforma web para gestionar clientes y tareas. Implementé
+                        componentes de interfaz con React, desarrollé endpoints con Node.js y Express, y trabajé con
+                        una
+                        base de datos PostgreSQL. También participé en revisiones de código, pruebas y corrección de
+                        errores.</p>
+                </li>
+            </ul>
+            <p class="disclaimer">Experiencia simulada para una actividad académica</p>
+        </section>
 
         <section id="projects">
             <h2>Proyectos desarrollados</h2>
-            <article class="card">
-                <img src="images/conferencistas.png" alt="captura de pantalla de la página web conferencistas, donde se muestran un equipo de conferencistas con sus cargos y una descripcion">
-                <h3>Página: Nuestros Expertos</h3>
-                <p>Se desarroló una página estática mediante HTML y CSS, donde se puso en práctica la maquetación del sitio, la organización de elementos y diseño básico de la web</p>
-                <a href="https://juajsia.github.io/conferencistas-page/" target="_blank">Ver en vivo</a>
-            </article>
+            <div class="card-container">
 
-            <article class="card">
-                <img src="images/mi-perfil.png" alt="captura de pantalla de la página de mi perfil, la cual tiene la información personal de Juan José Estrada">
-                <h3>Página: Hoja de Vida</h3>
-                <p>Vimos por primera vez algunas etiquetas de html como los títulos, las listas, las tablas, los links y además practicar un poco de estilos de css</p>
-                <a href="https://juajsia.github.io/mi-perfil/" target="_blank">Ver en vivo</a>
-            </article>
+                <article class="card">
+                    <img src="images/conferencistas.png"
+                        alt="captura de pantalla de la página web conferencistas, donde se muestran un equipo de conferencistas con sus cargos y una descripcion">
+                    <h3>Página: Nuestros Expertos</h3>
+                    <p>Se desarroló una página estática mediante HTML y CSS, donde se puso en práctica la maquetación
+                        del
+                        sitio, la organización de elementos y diseño básico de la web</p>
+                    <a href="https://juajsia.github.io/conferencistas-page/" target="_blank">Ver en vivo</a>
+                </article>
+
+                <article class="card">
+                    <img src="images/mi-perfil.png"
+                        alt="captura de pantalla de la página de mi perfil, la cual tiene la información personal de Juan José Estrada">
+                    <h3>Página: Hoja de Vida</h3>
+                    <p>Vimos por primera vez algunas etiquetas de html como los títulos, las listas, las tablas, los
+                        links y
+                        además practicar un poco de estilos de css</p>
+                    <a href="https://juajsia.github.io/mi-perfil/" target="_blank">Ver en vivo</a>
+                </article>
+            </div>
         </section>
     </main>
 
     <footer>
-        <h3>Contacto</h3>
-        <p>
-            <a href="https://github.com/Juajsia/" target="_blank">Mi Github</a>
-            <a href="mailto:juanjo.jjev@gmail.com">Escríbeme</a>
-        </p>
-        <p>La presentación de “Acerca de mí” y la experiencia profesional son ficticias y se incluyen únicamente como ejemplo para una actividad académica.</p>
-    
+        <div>
+            <h3>Contacto</h3>
+            <p>
+                <a href="https://github.com/Juajsia/" target="_blank">Mi Github</a>
+                <a href="mailto:juanjo.jjev@gmail.com">Escríbeme</a>
+            </p>
+        </div>
+        <p>La presentación de “Acerca de mí” y la experiencia profesional son ficticias y se incluyen únicamente como
+            ejemplo para una actividad académica.</p>
+
 </body>
+
 </html>
